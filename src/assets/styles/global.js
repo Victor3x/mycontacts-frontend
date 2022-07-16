@@ -10,7 +10,7 @@ export default createGlobalStyle`
   body {
     font-family: 'Sora', sans-serif;
     font-size: 16px;
-    background: ${({ theme }) => theme.backgroundColor};
+    background: ${({ theme }) => theme.colors.backgroundColor};
   }
 
   button {

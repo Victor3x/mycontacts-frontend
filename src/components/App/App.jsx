@@ -4,6 +4,7 @@ import { Container } from './style.js'
 
 import theme from '../../assets/styles/themes/default'
 import { Header } from '../Header'
+import { ContactList } from '../ContactList'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <GlobalStyles />
       <Container>
         <Header />
+        <ContactList />
       </Container>
     </ThemeProvider>
   )
