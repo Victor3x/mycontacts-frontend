@@ -11,6 +11,7 @@ export default createGlobalStyle`
     font-family: 'Sora', sans-serif;
     font-size: 16px;
     background: ${({ theme }) => theme.colors.backgroundColor};
+    color: ${({ theme }) => theme.colors.gray[900]};
   }
 
   button {

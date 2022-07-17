@@ -1,6 +1,6 @@
 import { Container, InputSearchContainer } from './style'
 
-import logo from '../../assets/images/logo.svg'
+import logo from '../../assets/images/icons/logo.svg'
 
 export const Header = () => {
   return (
