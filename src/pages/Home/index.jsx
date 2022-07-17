@@ -1,12 +1,22 @@
-import React from 'react'
-import { Container, Header, ListContainer, Card } from './style'
+import {
+  Container,
+  InputSearchContainer,
+  Header,
+  ListContainer,
+  Card
+} from './style'
+
 import arrow from '../../assets/images/icons/arrow.svg'
 import edit from '../../assets/images/icons/edit.svg'
 import trash from '../../assets/images/icons/trash.svg'
 
-export const ContactList = () => {
+export const Home = () => {
   return (
     <Container>
+      <InputSearchContainer>
+        <input type="text" placeholder="Pesquisar contato..." />
+      </InputSearchContainer>
+
       <Header>
         <strong>3 contatos</strong>
         <a href="#">Novo contato</a>

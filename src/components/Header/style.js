@@ -5,24 +5,5 @@ export const Container = styled.header`
   display: flex;
   align-items: center;
   flex-direction: column;
-`
-export const InputSearchContainer = styled.div`
-  margin-top: 48px;
-  width: 100%;
-
-  input {
-    width: 100%;
-    height: 50px;
-    background-color: #fff;
-    border: none;
-    border-radius: 25px;
-    padding: 0 16px;
-    outline: none;
-    font-size: 16px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.04);
-
-    &::placeholder {
-      color: #bcbcbc;
-    }
-  }
+  margin-bottom: 48px;
 `

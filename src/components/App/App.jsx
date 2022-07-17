@@ -4,17 +4,20 @@ import { Container } from './style.js'
 
 import theme from '../../assets/styles/themes/default'
 import { Header } from '../Header'
-import { ContactList } from '../ContactList'
+import { BrowserRouter } from 'react-router-dom'
+import Routes from '../../Routes'
 
 function App() {
   return (
-    <ThemeProvider theme={theme}>
-      <GlobalStyles />
-      <Container>
-        <Header />
-        <ContactList />
-      </Container>
-    </ThemeProvider>
+    <BrowserRouter>
+      <ThemeProvider theme={theme}>
+        <GlobalStyles />
+        <Container>
+          <Header />
+          <Routes />
+        </Container>
+      </ThemeProvider>
+    </BrowserRouter>
   )
 }
 
