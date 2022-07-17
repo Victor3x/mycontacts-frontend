@@ -1,3 +1,9 @@
+import { PageHeader } from '../../components/PageHeader/index'
+
 export const NewContact = () => {
-  return <div>create new Contact</div>
+  return (
+    <div>
+      <PageHeader title="Novo contato" />
+    </div>
+  )
 }
