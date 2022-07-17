@@ -1,9 +1,17 @@
 import { PageHeader } from '../../components/PageHeader/index'
+import { Input } from '../../components/Input'
+import { Select } from '../../components/Select'
 
 export const NewContact = () => {
   return (
-    <div>
+    <>
       <PageHeader title="Novo contato" />
-    </div>
+      <Input type="text" placeholder="Nome" />
+      <Select>
+        <option value="123">Instagram</option>
+        <option value="123">Twitter</option>
+        <option value="123">Facebook</option>
+      </Select>
+    </>
   )
 }
