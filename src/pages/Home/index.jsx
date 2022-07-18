@@ -9,6 +9,7 @@ import {
 import arrow from '../../assets/images/icons/arrow.svg'
 import edit from '../../assets/images/icons/edit.svg'
 import trash from '../../assets/images/icons/trash.svg'
+import { Link } from 'react-router-dom'
 
 export const Home = () => {
   return (
@@ -19,7 +20,7 @@ export const Home = () => {
 
       <Header>
         <strong>3 contatos</strong>
-        <a href="#">Novo contato</a>
+        <Link to="/new">Novo contato</Link>
       </Header>
 
       <ListContainer>
@@ -40,47 +41,9 @@ export const Home = () => {
             <span>(82) 99999-9999</span>
           </div>
           <div className="actions">
-            <a href="/">
+            <Link to="/edit">
               <img src={edit} alt="Icon edit contact" />
-            </a>
-            <button>
-              <img src={trash} alt="Icon delete contact" />
-            </button>
-          </div>
-        </Card>
-
-        <Card>
-          <div className="info">
-            <div className="contact">
-              <strong>Joao Vitor</strong>
-              <small>instagram</small>
-            </div>
-            <span>joaovitor@devacademy.com</span>
-            <span>(82) 99999-9999</span>
-          </div>
-          <div className="actions">
-            <a href="/">
-              <img src={edit} alt="Icon edit contact" />
-            </a>
-            <button>
-              <img src={trash} alt="Icon delete contact" />
-            </button>
-          </div>
-        </Card>
-
-        <Card>
-          <div className="info">
-            <div className="contact">
-              <strong>Joao Vitor</strong>
-              <small>instagram</small>
-            </div>
-            <span>joaovitor@devacademy.com</span>
-            <span>(82) 99999-9999</span>
-          </div>
-          <div className="actions">
-            <a href="/">
-              <img src={edit} alt="Icon edit contact" />
-            </a>
+            </Link>
             <button>
               <img src={trash} alt="Icon delete contact" />
             </button>
