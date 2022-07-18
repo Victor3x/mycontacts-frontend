@@ -6,7 +6,7 @@ import PropTypes from 'prop-types'
 export const PageHeader = ({ title }) => {
   return (
     <Container>
-      <Link>
+      <Link to="/">
         <img src={arrow} alt="" />
         <span>Voltar</span>
       </Link>
