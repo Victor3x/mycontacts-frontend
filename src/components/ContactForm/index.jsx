@@ -9,8 +9,8 @@ import PropTypes from 'prop-types'
 export const ContactForm = ({ buttonLabel }) => {
   return (
     <Container>
-      <FormGroup>
-        <Input type="text" placeholder="Nome" />
+      <FormGroup error="O formato do e-mail é inválido">
+        <Input type="text" placeholder="Nome" error />
       </FormGroup>
 
       <FormGroup>
