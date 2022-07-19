@@ -1,9 +1,10 @@
 import styled from 'styled-components'
 
 export const Button = styled.button`
-  width: 100%;
+  width: 94px;
   height: 52px;
   border: none;
+  padding: 0 16px;
   border-radius: 4px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.04);
   background: ${({ theme }) => theme.colors.primary.main};
